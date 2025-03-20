@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val executor = Executors.newSingleThreadExecutor() // Buat background thread
 
         executor.execute {
-            val dbColorDao = db.ColorDao()
+            val dbColorDao = db.colorDao()
             val colors = dbColorDao.getAll()
 
             // Cek apakah warna "Red" sudah ada di database berdasarkan hexColor
