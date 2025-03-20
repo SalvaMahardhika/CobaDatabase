@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId = "com.salva.cobadatabase"
         minSdk = 27
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
